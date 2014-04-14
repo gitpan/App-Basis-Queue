@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use 5.012000;
+use 5.010000;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -34,9 +34,9 @@ my %WriteMakefileArgs = (
   },
   "TEST_REQUIRES" => {
     "DBI" => 0,
-    "Test::Most" => 0
+    "Test::More" => 0
   },
-  "VERSION" => "0.2",
+  "VERSION" => "0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -50,7 +50,7 @@ my %FallbackPrereqs = (
   "Moo" => 0,
   "MooX::Types::MooseLike::Base" => 0,
   "POSIX" => 0,
-  "Test::Most" => 0,
+  "Test::More" => 0,
   "Time::HiRes" => 0,
   "Try::Tiny" => 0,
   "feature" => 0,

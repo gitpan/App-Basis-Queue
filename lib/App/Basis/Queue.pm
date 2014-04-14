@@ -3,7 +3,7 @@
 
 
 package App::Basis::Queue;
-$App::Basis::Queue::VERSION = '0.2';
+$App::Basis::Queue::VERSION = '0.3';
 use 5.10.0;
 use feature 'state';
 use strict;
@@ -839,7 +839,7 @@ App::Basis::Queue - Simple database backed FIFO queues
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 
